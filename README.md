@@ -44,25 +44,6 @@
 - **intl-tel-input** - поле телефона с флагом
 - **GitHub Actions** - автоматический деплой
 
-## 📁 Архитектура темы
-nadryvaks-theme/
-├── header.php # Шапка сайта (меню, бургер)
-├── footer.php # Подвал (меню, копирайт)
-├── index.php # Главная страница (лендинг)
-├── page.php # Шаблон для обычных страниц
-├── page-about.php # Chi siamo
-├── page-piani.php # Piani
-├── page-contatti.php # Contattateci
-├── page-login.php # Accesso
-├── page-signup.php # Iscriviti
-├── page-privacy-policy.php # Informativa sulla privacy
-├── page-terms.php # Termini e condizioni
-├── page-special-offer.php # Offerta speciale
-├── functions.php # Подключение стилей/скриптов
-├── style.css # Обязательный файл темы
-├── templates/ # CSS, JS, изображения
-└── uploads/ # Логотипы, иконки
-
 
 ## 📦 Установка и запуск
 
