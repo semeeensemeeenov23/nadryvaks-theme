@@ -1,0 +1,76 @@
+.navbar-brand, .footer-navbar-brand{
+    display: inline-flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFF;
+    text-decoration: none;
+}
+.navbar-brand img, .footer-navbar-brand img{height: 35px;width: 35px; color: #0D0E22;}
+.navbar-brand span, .footer-navbar-brand span{
+    display: inline-block;
+    margin-left: 10px;
+}
+.footer-navbar-brand{color: #fff;}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+}
+.as-seen-on__content img{ max-height:40px;width:auto;max-width:120px;}
+.price-features-list li{margin: 10px 0;}
+
+.form .btn-submit{opacity:1;}
+.form-disclaimer{font-size: 0.8em;}
+
+.phone_input{padding-left: 50px !important;}
+/*<editor-fold desc="LANGUAGE SWITCHER">*/
+#language_select{
+    font-family: var(--font-medium);
+    margin-left: 15px;
+    min-width: 85px;
+    border-radius: 8px;
+    border: 1px solid #D5E1ED;
+}
+#language_select:hover .lang{
+    color: var(--text-color-second);
+}
+#language_select:hover .arrow{
+    border-color: transparent var(--text-color-second) var(--text-color-second) transparent;
+}
+#language_select .language_select-list{
+    padding: 15px 0;
+}
+#language_select .language_select-list-item-link{
+    padding: 5px 10px;
+}
+/*</editor-fold>*/
+
+
+/*<editor-fold desc="SCROLL TO TOP BUTTON">*/
+.scroll-top-button{
+    background-color:var(--text-color-second) !important;
+}
+.scroll-top-button:hover{
+    background-color: var(--text-color-third) !important;
+}
+.scroll-top-button svg{
+    color: var(--white-color) !important;
+}
+/*</editor-fold>*/
+
+/*<editor-fold desc="RTL">*/
+html[dir="rtl"] .navbar-brand,
+html[dir="rtl"] .footer-navbar-brand,
+html[dir="rtl"] #language_select{
+    direction: ltr;
+}
+html[dir="rtl"] .feature .heading,
+html[dir="rtl"] .feature .descr{
+    text-align: right !important;
+}
+@media (min-width: 767px) {
+    html[dir="rtl"] .section_cta {
+        background-position: calc(50% - 560px);
+    }
+}
+/*</editor-fold>*/

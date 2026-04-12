@@ -1,0 +1,21 @@
+/*
+Theme Name: Nadryvaks Theme
+Theme URI: 
+Author: Your Name
+Author URI: 
+Description: Кастомная тема для лендинга Nadryvaks
+Version: 1.0
+License: GPL v2 or later
+Text Domain: nadryvaks
+*/
+
+/* Этот файл обязателен для WordPress, но основные стили у тебя уже подключены в header.php */
+
+/* ПЕРЕОПРЕДЕЛЕНИЕ ФОНА */
+body {
+    background-color: #212332 !important;
+}
+
+.section_cta {
+    background-color: #212332 !important;
+}

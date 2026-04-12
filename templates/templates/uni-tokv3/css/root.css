@@ -1,0 +1,83 @@
+:root{
+    /*<editor-fold desc="COLORS">*/
+    --main-color: #ffffff;
+    --second-color: #FFFFFF;
+    --third-color: #272ac6;
+    --advantages-color: #0d0c43;
+
+    --text-color-main: #080808;
+    --text-color-second: #FFFFFF;
+
+    --black-color: #000;
+    --white-color: #fff;
+
+    --grey-1-color: #ECE8DF;
+    --grey-2-color: #F8F0DF;
+    --grey-3-color: #333;
+    --grey-4-color: #444;
+    --grey-5-color: #555;
+    --grey-6-color: #666;
+    --grey-7-color: #777;
+    --grey-8-color: #888;
+    --grey-9-color: #999;
+    --grey-a-color: #aaa;
+    --grey-b-color: #bbb;
+    --grey-c-color: #ccc;
+    --grey-d-color: #ddd;
+    --grey-e-color: #eee;
+    --brown-1-color: #492612;
+    --brown-2-color: #A07D4F;
+    --brown-3-color: #633E28;
+    --brown-4-color: #C6AA84;
+
+    /*</editor-fold>*/
+
+    --border-radius: 10px;
+
+    /*<editor-fold desc="FORM VARIABLES">*/
+    --form-background-color: rgba(254, 253, 255, 0.9);
+    --form-border-radius: var(--border-radius);
+    --form-input-radius: var(--border-radius);
+    --form-border: 1px solid var(--second-color);
+    --form-button-background: var(--second-color);
+    --form-button-background-hover: var(--second-color);
+    --form-button-color: rgba(255,255,255,1);
+    --form-button-font: 25px var(--font-bold);
+    --form-input-height: 45px;
+    --form-error-color: var(--grey-8-color);
+    --form-error-background-color: rgba(235,0,15,0.5);
+    --form-success-color: rgba(0,155,55,0.5);
+    --form-text-color: var(--text-color-main);
+    /*</editor-fold>*/
+
+    /*<editor-fold desc="CSS LOADER">*/
+    --css-loader-color: var(--second-color);
+    /*</editor-fold>*/
+
+    /*<editor-fold desc="Language Switcher">*/
+    --language-switcher-list-z-index: 5;
+    --language-switcher-background-color: transparent;
+    --language-switcher-color: #F5F5F5;
+    --language-switcher-list-background-color: #212332;
+    --language-switcher-list-color: inherit;
+    --language-switcher-item-hover-border-color: transparent;
+    --language-switcher-item-hover-background-color: #202231;
+    --language-switcher-item-hover-color: var(--second-color) !important;
+    /*</editor-fold>*/
+
+}
+
+/*<editor-fold desc="Social Icons">*/
+.social-links-widget a{
+    text-decoration: none;
+    display: inline-block;
+    margin-right:5px;
+    padding:0;
+    line-height: 18px;
+    overflow: hidden;
+}
+.social-links-widget a img{
+    width: 18px;
+    height: 18px;
+}
+/*</editor-fold>*/
