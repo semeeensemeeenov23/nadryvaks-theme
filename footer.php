@@ -1,6 +1,10 @@
 <footer class="main_footer">
     <style>
+<<<<<<< HEAD
     /* Бургер-меню 2*/
+=======
+    /* Бургер-меню */
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     .burger-menu {
         display: none;
         cursor: pointer;
@@ -35,7 +39,11 @@
         transform: rotate(-135deg);
     }
     
+<<<<<<< HEAD
     /* Мобильное меню 2*/
+=======
+    /* Мобильное меню */
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     .mobile-menu {
         position: fixed;
         top: 0;
@@ -86,7 +94,11 @@
         border-bottom: none;
     }
     
+<<<<<<< HEAD
     /* Оверлей 2*/
+=======
+    /* Оверлей */
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     .menu-overlay {
         position: fixed;
         top: 0;
@@ -105,7 +117,11 @@
         overflow: hidden;
     }
     
+<<<<<<< HEAD
     /* Адаптивность 2*/
+=======
+    /* Адаптивность */
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     @media (max-width: 991px) {
         .primary_menu {
             display: none !important;
@@ -196,8 +212,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 <script>
+<<<<<<< HEAD
 // скрипт для бургера
 jQuery(document).ready(function($) {
+=======
+// Простой и надёжный скрипт для бургера
+jQuery(document).ready(function($) {
+    // Проверяем, есть ли элементы
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     var $burger = $('.burger-menu');
     var $mobileMenu = $('.mobile-menu');
     var $overlay = $('.menu-overlay');
@@ -210,6 +232,10 @@ jQuery(document).ready(function($) {
     
     console.log('Бургер найден, инициализируем');
     
+<<<<<<< HEAD
+=======
+    // Открытие/закрытие по клику на бургер
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     $burger.on('click', function(e) {
         e.preventDefault();
         e.stopPropagation();
@@ -222,6 +248,10 @@ jQuery(document).ready(function($) {
         console.log('Клик по бургеру, меню активно: ' + $mobileMenu.hasClass('active'));
     });
     
+<<<<<<< HEAD
+=======
+    // Закрытие по клику на оверлей
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     $overlay.on('click', function() {
         $mobileMenu.removeClass('active');
         $overlay.removeClass('active');
@@ -229,6 +259,10 @@ jQuery(document).ready(function($) {
         $burger.removeClass('active');
     });
     
+<<<<<<< HEAD
+=======
+    // Закрытие по клику на ссылку в меню
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     $('.mobile-menu a').on('click', function() {
         $mobileMenu.removeClass('active');
         $overlay.removeClass('active');

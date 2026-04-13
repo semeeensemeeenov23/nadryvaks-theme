@@ -13,9 +13,17 @@
     <link rel="alternate" hreflang="x-default" href="index.htm">
     <link rel="alternate" hreflang="it" href="index.htm">
     
+<<<<<<< HEAD
     <link href="<?php echo get_template_directory_uri(); ?>/uploads/sites/3048/J81VRCZTdbHgQ5pHm30f3dUp9jElTkPGv2iAa8Qj.png" rel="shortcut icon" type="image/png">
     <link href="<?php echo get_template_directory_uri(); ?>/uploads/sites/3048/J81VRCZTdbHgQ5pHm30f3dUp9jElTkPGv2iAa8Qj.png" rel="apple-touch-icon">
     
+=======
+    <!-- favicon -->
+    <link href="<?php echo get_template_directory_uri(); ?>/uploads/sites/3048/J81VRCZTdbHgQ5pHm30f3dUp9jElTkPGv2iAa8Qj.png" rel="shortcut icon" type="image/png">
+    <link href="<?php echo get_template_directory_uri(); ?>/uploads/sites/3048/J81VRCZTdbHgQ5pHm30f3dUp9jElTkPGv2iAa8Qj.png" rel="apple-touch-icon">
+    
+    <!-- Configure Android webapp -->
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#0D0E22">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -347,6 +355,10 @@
     </style>
 
     <style type="text/css" id="custom-css">
+<<<<<<< HEAD
+=======
+        /*--new advantages--*/
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
         #section-advantages {
             border-radius: 12px;
             padding: 36px 56px 64px 56px;
@@ -394,7 +406,13 @@
             }
         }
 
+<<<<<<< HEAD
 
+=======
+        /*--end new advantages--*/
+
+        /* testimonials-new test */
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
         #testimonials-users {
             margin: 38px auto;
         }
@@ -454,7 +472,13 @@
             margin-bottom: 6px;
         }
 
+<<<<<<< HEAD
 
+=======
+        /* end testimonials-new test */
+
+        /*edit style dopo wpml*/
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
         header.main_header {
             min-height: 80px;
             box-shadow: none;
@@ -629,6 +653,10 @@
             }
         }
 
+<<<<<<< HEAD
+=======
+        /*end remove style*/
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
 
         header .col-sign-up {
             display: flex;
@@ -942,6 +970,10 @@
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="">
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="">
 
+<<<<<<< HEAD
+=======
+    <!-- Configure Android webapp -->
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     <link rel="manifest" href="manifest.json">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#0D0E22">
@@ -1150,6 +1182,10 @@
 
 
     <style>
+<<<<<<< HEAD
+=======
+        /* Бургер-меню */
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
         .burger-menu {
             display: none;
             ...
@@ -1160,6 +1196,10 @@
         }
     </style>
 
+<<<<<<< HEAD
+=======
+    <!-- ========== НОВЫЙ КОД (твой) ========== -->
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     <script type="application/ld+json">
@@ -1310,6 +1350,10 @@
     <script type="text/javascript" src="templates/uni-tokv3/js/swiper-bundle.min.js?1749219871j"></script>
     <link rel="stylesheet" id="wp-block-library-css" href="templates/uni-tokv3/css/swipper.css?1749219871">
 
+<<<<<<< HEAD
+=======
+    <!-- wiget.all_header -->
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     <style>
         :root {
             --second-color: #26b06b;
@@ -1349,7 +1393,11 @@
                 </div>
                 <div class="col-md-1 col-3 text-end"></div>
                 <div class="col-md-3 col-7 text-end">
+<<<<<<< HEAD
                     <a href="<?php echo home_url('/iscriviti/'); ?>" class="sign-up-button">Iscriviti</a>
+=======
+                    <a href="<?php echo home_url('/sign-up/'); ?>" class="sign-up-button">Iscriviti</a>
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
                     <div class="burger-menu">
                         <span></span>
                         <span></span>
@@ -1364,9 +1412,15 @@
     <div class="mobile-menu">
         <ul>
             <li><a href="<?php echo home_url('/chi-siamo/'); ?>">Chi siamo</a></li>
+<<<<<<< HEAD
             <li><a href="<?php echo home_url('/piani/'); ?>">Piani</a></li>
             <li><a href="<?php echo home_url('/contattateci/'); ?>">Contattateci</a></li>
             <li class="mobile-sign-up"><a href="<?php echo home_url('/iscriviti/'); ?>">Iscriviti</a></li>
+=======
+            <li><a href="<?php echo home_url('/plans/'); ?>">Piani</a></li>
+            <li><a href="<?php echo home_url('/contact/'); ?>">Contattateci</a></li>
+            <li class="mobile-sign-up"><a href="sign-up.html">Iscriviti</a></li>
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
         </ul>
     </div>
     <div class="menu-overlay"></div>

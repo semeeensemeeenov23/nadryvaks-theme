@@ -1,6 +1,10 @@
 <?php
 /**
  * Template Name: About Page
+<<<<<<< HEAD
+=======
+ * Страница "Chi siamo" - без дублей шапки и меню
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
  */
 
 get_header();

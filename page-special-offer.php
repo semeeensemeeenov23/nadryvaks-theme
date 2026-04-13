@@ -306,6 +306,10 @@ get_header();
 
 
 <style>
+<<<<<<< HEAD
+=======
+    /* Исправление ширины для intl-tel-input */
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     .iti {
         display: block !important;
         width: 100% !important;
@@ -340,6 +344,10 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <style>
+<<<<<<< HEAD
+=======
+    /* Убираем отступ сверху для страницы Special Offer */
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     .page_content_wrapper.special-offer {
         padding-top: 0 !important;
         margin-top: 0 !important;
@@ -351,6 +359,10 @@ document.addEventListener('DOMContentLoaded', function() {
         border-top-right-radius: 0 !important;
     }
     
+<<<<<<< HEAD
+=======
+    /* Для мобильных устройств */
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     @media (max-width: 768px) {
         .page_content_wrapper.special-offer {
             padding-top: 0 !important;

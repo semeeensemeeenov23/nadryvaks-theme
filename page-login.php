@@ -55,6 +55,13 @@ get_header();
 </section>
 
 <style>
+<<<<<<< HEAD
+=======
+    /* Оригинальный градиент как в лендинге */
+   
+    
+    /* Стили для формы */
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     .form-container {
         background: rgb(255, 240, 240);
         border-radius: 12px;
@@ -88,12 +95,20 @@ get_header();
         color: #fff;
     }
     
+<<<<<<< HEAD
+=======
+    /* Текстовые стили */
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     .text-size-11 { font-size: 14px; }
     .text-size-12 { font-size: 15px; }
     .text-size-25 { font-size: 28px; }
     .text-font-bold { font-weight: 700; }
     .text-font-regular { font-weight: 400; }
     
+<<<<<<< HEAD
+=======
+    /* Адаптивность */
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     @media (max-width: 768px) {
         .form-container {
             margin-top: 30px;

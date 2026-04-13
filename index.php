@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<<<<<<< HEAD
+=======
+<!-- wiget.before_content -->
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
 <div class="main-wrapper">
     <header class="main_header">
         <div class="container">

@@ -106,6 +106,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 <style>
+<<<<<<< HEAD
+=======
+    /* Исправление ширины для intl-tel-input */
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     .iti {
         display: block !important;
         width: 100% !important;

@@ -247,6 +247,10 @@ get_header();
     </div>
 </div>
 <style>
+<<<<<<< HEAD
+=======
+    /* Стили для таблицы как у всего body */
+>>>>>>> 2ea2974d6f57530e4a6f0bf8fe4c602e5ae1b3f3
     .table {
         width: 100%;
         margin-bottom: 1rem;
