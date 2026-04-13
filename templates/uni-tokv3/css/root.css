@@ -1,0 +1,67 @@
+:root{
+    /*<editor-fold desc="COLORS">*/
+    --main-color: #ffffff;
+    --second-color: #26b06b;
+    --third-color: #459f74;
+    --advantages-color: #0a7349;
+
+    --text-color-main: #080808;
+    --text-color-second: #FFFFFF;
+    
+    --black-color: #000;
+    --white-color: #fff;
+    
+    /* ... остальное без изменений ... */
+}
+
+    /*</editor-fold>*/
+
+    --border-radius: 10px;
+
+    /*<editor-fold desc="FORM VARIABLES">*/
+    --form-background-color: rgba(254, 253, 255, 0.9);
+    --form-border-radius: var(--border-radius);
+    --form-input-radius: var(--border-radius);
+    --form-border: 1px solid var(--second-color);
+    --form-button-background: var(--second-color);
+    --form-button-background-hover: var(--second-color);
+    --form-button-color: rgba(255,255,255,1);
+    --form-button-font: 25px var(--font-bold);
+    --form-input-height: 45px;
+    --form-error-color: var(--grey-8-color);
+    --form-error-background-color: rgba(235,0,15,0.5);
+    --form-success-color: rgba(0,155,55,0.5);
+    --form-text-color: var(--text-color-main);
+    /*</editor-fold>*/
+
+    /*<editor-fold desc="CSS LOADER">*/
+    --css-loader-color: var(--second-color);
+    /*</editor-fold>*/
+
+    /*<editor-fold desc="Language Switcher">*/
+    --language-switcher-list-z-index: 5;
+    --language-switcher-background-color: transparent;
+    --language-switcher-color: #F5F5F5;
+    --language-switcher-list-background-color: #212332;
+    --language-switcher-list-color: inherit;
+    --language-switcher-item-hover-border-color: transparent;
+    --language-switcher-item-hover-background-color: #202231;
+    --language-switcher-item-hover-color: var(--second-color) !important;
+    /*</editor-fold>*/
+
+}
+
+/*<editor-fold desc="Social Icons">*/
+.social-links-widget a{
+    text-decoration: none;
+    display: inline-block;
+    margin-right:5px;
+    padding:0;
+    line-height: 18px;
+    overflow: hidden;
+}
+.social-links-widget a img{
+    width: 18px;
+    height: 18px;
+}
+/*</editor-fold>*/

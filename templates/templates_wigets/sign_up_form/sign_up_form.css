@@ -1,0 +1,190 @@
+.form {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: calc(var(--form-input-height) / 3);
+    border-radius: var(--form-border-radius);
+    color:var(--form-text-color);
+    text-align: center;
+    background: var(--form-background-color);
+    border: var(--form-border);
+    transition: all 0.3s ease 0s;
+}
+.form .form_header{
+    margin: 0 0 10px 0;
+}
+
+.form .input_group {
+    position:relative;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: calc(var(--form-input-height) / 4);
+}
+
+.form .input_group:last-child {
+    margin-bottom: 0;
+}
+
+.input_questions label{
+    width:100%;
+    font-weight:300;
+    text-align:left;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form textarea,
+.form select{
+    display:inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: var(--form-input-height);
+    padding: 6px 16px;
+    line-height: 1.42857143;
+    background-image: none;
+    background-color: #fff;
+    border-radius: var(--form-input-radius);
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, .075);
+    margin: 0;
+    border: 2px solid rgba(0,0,0, .025);
+    transition: all 0.3s ease 0s;
+    outline: none !important;
+    z-index:1;
+}
+.form textarea{height: calc(var(--form-input-height) * 3);}
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form input[type="password"]:focus,
+.form textarea:focus,
+.form select:focus{
+    outline: 0 !important;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, .075);
+}
+
+.iti{width:100%;}
+.flag-container{z-index:2;}
+.iti__country-name{color: #333;}
+
+.form input::-webkit-input-placeholder {color:#919599 !important; opacity:1;}
+.form input::-moz-placeholder          {color:#919599 !important; opacity:1;}/* Firefox 19+ */
+.form input:-moz-placeholder           {color:#919599 !important; opacity:1;}/* Firefox 18- */
+.form input:-ms-input-placeholder      {color:#919599 !important; opacity:1;}
+.form input::placeholder      {color:#919599 !important; opacity:1;}
+
+.error_input{
+    border:2px solid var(--form-error-background-color) !important;
+}
+
+.form .btn-submit {
+    display: inline-flex;
+    height: var(--form-input-height);
+    width: 100%;
+    color: var(--form-button-color);
+    background: var(--form-button-background);
+    border-radius: var(--form-input-radius);
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font: var(--form-button-font);
+    opacity: 0.9;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+.form .btn-submit:hover {
+    opacity: 1;
+    background: var(--form-button-background-hover);
+    outline: none;
+    appearance: none;
+}
+.form .btn-submit:focus {
+    opacity: 0.8;
+    outline: none;
+    appearance: none;
+}
+.form .btn-submit:active {
+    opacity: 1;
+    outline: none;
+    appearance: none;
+}
+
+.form_error, .form_success{
+    display:none;
+    position:relative;
+    background:#fcf8f8;
+    padding:6px 12px 6px 20px;
+    text-align:left;
+    margin:0 0 25px 0;
+    color: var(--form-error-color);
+    border:1px dashed var(--form-error-background-color);
+}
+.form_error:after, .form_success:after{
+    content:"!";
+    position:absolute;
+    left:-12px;
+    top:-12px;
+    font-size:18px;
+    line-height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:bold;
+    width:24px;
+    height:24px;
+    border-radius:50%;
+    background:var(--form-error-background-color);
+    box-shadow: 1px 1px 3px -1px rgba(55,55,55,0.2);
+    color: #fff;
+}
+.form_error p, .form_success p{
+    margin:0;
+}
+.form_success{
+    border: 1px solid var(--form-success-color);
+}
+.form_success:after{
+    background:var(--form-success-color);
+}
+
+
+.sms_confirm_block{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    display:flex;
+    align-items: center;
+    background:rgba(255,255,255, 0.9);
+    z-index:5;
+    text-align:center;
+    padding:20px;
+    border-radius:5px;
+}
+.sms_confirm_title{
+    display:inline-block;
+    width:90%;
+    font-size:1.1em;
+    margin:0 0 15px 0;
+}
+.sms_confirm_block .form-group{
+    margin-bottom:10px;
+}
+.sms_confirm_block input{
+    text-align:center;
+}
+
+.play-market-button{
+    line-height: 1.2em;
+    padding: 8px 20px;
+    opacity:0.7;
+}
+.play-market-button:hover{
+    text-decoration: none;
+}
+
+
